@@ -1,0 +1,25 @@
+# ESP-IDF 构建产物
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
+dependencies.lock.bak
+*.bin
+*.elf
+*.map
+*.log
+build_log.txt
+flash_log.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 模型（体积大，走姊妹仓库或自行导出）
+*.onnx
+*.pt
+
+# 系统
+.DS_Store
+Thumbs.db
